@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(anoushka-p-f1YfrZ1o2r8-unsplash.jpg);
+}
+
+#wrapper {
+    margin: 150px 10px 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    width: 500px;
+    border: 20px;
+    border-style: dashed;
+    border-color: rgb(54, 44, 44);
+}
+
+.value1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operacija {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rezultat {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignement_1</title>
+    <link rel="stylesheet" href="stylesheet_JS_.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="main">
+
+            <form>
+
+                <h1>Online calculator</h1>
+
+                <p class="value1">Vrednost broj 1:
+                    <input type="text" id="number1" />
+                </p>
+
+                <p class="operacija">Operacija:
+                    <input type="text" id="operation" />
+                </p>
+
+                <p class="value2">Vrednost broj 2:
+                    <input type="text" id="number2" />
+                </p>
+
+                <br>
+                <p class="rezultat">Rezultat:
+                    <input type="text" id="result" disabled="disabled" />
+                </p>
+                <br/>
+                <input type="button" id="calculate" onClick="result_function()" value="Izracunaj rezultat" />
+
+
+            </form>
+
+        </div>
+        <!--end.main-->
+
+    </div>
+    <!--end.wrapper-->
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
