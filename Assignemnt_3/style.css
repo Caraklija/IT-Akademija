@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px;
+  font-style: normal;
+  color: rgb(110, 110, 110);
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0 0 auto 10px;
+}
+
+.main {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+}
+
+.img {
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap;
+  max-width: 180px;
+}
+
+img {
+  background-color: rgb(168, 168, 255);
+  width: 80%;
+  max-width: 160px;
+  height: 10vh;
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 6px auto;
+  position: relative;
+  font-size: 90%;
+}
+
+p {
+  width: 90%;
+  max-width: 1024px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-style: normal;
+  color: rgb(39, 38, 38);
+}
+
+@media screen and (max-width: 1980px) {
+  .main > .img {
+    width: 16.3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main > .img {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .main > .img {
+    width: 100%;
+  }
+  .header {
+    margin: 0;
+  }
+}
